@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Speed Valley — Press kit</title>
+<meta name="description" content="Speed Valley: miniature top-down rally and racing game where you build the car and hear every change. Press kit.">
+<meta property="og:title" content="Speed Valley — Press kit">
+<meta property="og:description" content="Miniature top-down rally and racing. Build the car, design its engine, hear every change.">
+<meta property="og:image" content="img/01_san_marino_alba.jpg">
+<link rel="icon" href="img/icon.png">
+<style>
+:root{--bg:#10151c;--panel:#18202b;--ink:#eef2f6;--mute:#9fb0c2;--acc:#ff6a3d;--line:#263243}
+@media (prefers-color-scheme:light){:root{--bg:#f6f4ef;--panel:#fff;--ink:#16202b;--mute:#566577;--acc:#d9481c;--line:#e0dbd0}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--acc)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.hero{position:relative;min-height:62vh;display:flex;align-items:flex-end;background:#000 url(img/01_san_marino_alba.jpg) center/cover}
+header.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.82))}
+.hero .wrap{position:relative;z-index:1;padding-bottom:40px;color:#fff}
+.hero h1{font-size:clamp(2.4rem,7vw,4.6rem);line-height:1;margin:0 0 10px;letter-spacing:-.02em}
+.hero p{font-size:clamp(1.05rem,2.4vw,1.4rem);margin:0;max-width:680px;color:#e8edf3}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:18px;align-items:center;overflow-x:auto;padding-top:10px;padding-bottom:10px;white-space:nowrap}
+nav a{text-decoration:none;color:var(--mute);font-size:.92rem}
+nav a:hover{color:var(--ink)}
+.lang{margin-left:auto;display:flex;gap:6px}
+.lang button{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:3px 10px;border-radius:6px;cursor:pointer;font:inherit;font-size:.85rem}
+.lang button[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
+section{padding:44px 0 8px}
+h2{font-size:1.7rem;margin:0 0 16px;letter-spacing:-.01em}
+h3{margin:22px 0 6px;font-size:1.12rem}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.card h3{margin-top:0}
+table{border-collapse:collapse;width:100%;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{text-align:left;padding:9px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{width:34%;color:var(--mute);font-weight:600}
+tr:last-child th,tr:last-child td{border-bottom:0}
+.shots{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.shots a{display:block;position:relative;border-radius:8px;overflow:hidden;background:#000;aspect-ratio:16/9}
+.shots img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .25s}
+.shots a:hover img{transform:scale(1.04)}
+.shots span{position:absolute;left:0;right:0;bottom:0;padding:18px 10px 6px;font-size:.82rem;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.75))}
+.btn{display:inline-block;background:var(--acc);color:#fff;text-decoration:none;padding:10px 18px;border-radius:8px;font-weight:600}
+.copy{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:0 0 12px}
+.copy b{color:var(--mute);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+.copy button{float:right;border:1px solid var(--line);background:transparent;color:var(--mute);border-radius:6px;cursor:pointer;font-size:.78rem;padding:2px 8px}
+ul.f{padding-left:20px;margin:0}
+footer{margin-top:50px;padding:28px 0 50px;border-top:1px solid var(--line);color:var(--mute);font-size:.9rem}
+[data-l]{display:none}
+html[lang=en] [data-l=en],html[lang=it] [data-l=it]{display:revert}
+html[lang=en] span[data-l=en],html[lang=it] span[data-l=it]{display:inline}
+html[lang=en] .copy b[data-l=en],html[lang=it] .copy b[data-l=it]{display:block}
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:20;cursor:zoom-out}
+.lb.on{display:flex}
+.lb img{max-width:96vw;max-height:94vh}
+@media print{
+ @page{size:A4;margin:12mm}
+ body{font-size:11pt;background:#fff;color:#000;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ nav,.btn,.copy button{display:none!important}
+ header.hero{min-height:0;height:70mm}
+ section{padding:14px 0 0;break-inside:auto}
+ h2,h3{break-after:avoid}
+ .card,.copy,table,tr{break-inside:avoid}
+ .shots{grid-template-columns:repeat(3,1fr)}
+ .shots a{break-inside:avoid}
+ footer{margin-top:16px;padding:10px 0}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Speed Valley</h1>
+    <p data-l="en">Miniature rally and racing, seen from above. Drive the car, tune it, build its engine — and hear every change.</p>
+    <p data-l="it">Rally e corse in miniatura, viste dall'alto. Guidi l'auto, la modifichi, ne costruisci il motore e senti ogni modifica.</p>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#facts"><span data-l="en">Fact sheet</span><span data-l="it">Scheda</span></a>
+    <a href="#about"><span data-l="en">About</span><span data-l="it">Il gioco</span></a>
+    <a href="#features"><span data-l="en">Features</span><span data-l="it">Funzioni</span></a>
+    <a href="#shots"><span data-l="en">Screenshots</span><span data-l="it">Immagini</span></a>
+    <a href="#copy"><span data-l="en">Copy</span><span data-l="it">Testi</span></a>
+    <a href="#credits"><span data-l="en">Credits</span><span data-l="it">Crediti</span></a>
+    <a href="#contact"><span data-l="en">Contact</span><span data-l="it">Contatti</span></a>
+    <div class="lang"><button data-set="en" aria-pressed="true">EN</button><button data-set="it" aria-pressed="false">IT</button></div>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<section id="facts">
+  <h2><span data-l="en">Fact sheet</span><span data-l="it">Scheda tecnica</span></h2>
+  <table>
+    <tr><th>Title</th><td>Speed Valley</td></tr>
+    <tr><th data-l="en">Genre</th><th data-l="it">Genere</th><td><span data-l="en">Arcade rally / racing with workshop and career</span><span data-l="it">Arcade-rally / racing con officina e carriera</span></td></tr>
+    <tr><th data-l="en">Camera</th><th data-l="it">Visuale</th><td><span data-l="en">Top-down (chase view selectable), low-poly scale-model look</span><span data-l="it">Dall'alto (visuale a inseguimento selezionabile), low-poly da modellino</span></td></tr>
+    <tr><th data-l="en">Players</th><th data-l="it">Giocatori</th><td><span data-l="en">Single player</span><span data-l="it">Singolo giocatore</span></td></tr>
+    <tr><th data-l="en">Platforms</th><th data-l="it">Piattaforme</th><td>PC (Windows, Linux), macOS — [TBC]</td></tr>
+    <tr><th>Engine</th><td>Godot 4.7.2</td></tr>
+    <tr><th data-l="en">Languages</th><th data-l="it">Lingue</th><td><span data-l="en">Italian, English</span><span data-l="it">Italiano, inglese</span></td></tr>
+    <tr><th data-l="en">Controls</th><th data-l="it">Controlli</th><td><span data-l="en">Keyboard or analogue gamepad</span><span data-l="it">Tastiera o gamepad analogico</span></td></tr>
+    <tr><th data-l="en">Developer</th><th data-l="it">Sviluppatore</th><td><span data-l="en">Independent (Italy)</span><span data-l="it">Indipendente (Italia)</span></td></tr>
+    <tr><th data-l="en">Release date</th><th data-l="it">Uscita</th><td>[TBA]</td></tr>
+    <tr><th data-l="en">Price</th><th data-l="it">Prezzo</th><td>[TBA]</td></tr>
+  </table>
+</section>
+
+<section id="about">
+  <h2><span data-l="en">What it is</span><span data-l="it">Cos'è</span></h2>
+  <p data-l="en">Speed Valley is a top-down driving game with a miniature-diorama look: roads, hills and circuits that feel like lit-up scale models. Its mood is close to <em>Art of Rally</em>, but the heart of the game is different: <strong>you don't just drive the car — you build it.</strong></p>
+  <p data-l="en">You start with 35,000 $peedcoin and an empty garage. Buy cars, win races and championships, upgrade them in the workshop and take the engines to the dyno, with live torque and power curves. Every change to exhaust, turbo or ECU can be heard, because engine sound isn't recorded — it's synthesised.</p>
+  <p data-l="it">Speed Valley è un gioco di guida con la camera alta e l'estetica di un diorama: strade, colline e autodromi che sembrano plastici illuminati. L'atmosfera è vicina a <em>Art of Rally</em>, ma il centro del gioco è un altro: <strong>non guidi soltanto l'auto, la costruisci.</strong></p>
+  <p data-l="it">Parti con 35.000 $peedcoin e un garage vuoto. Compri le auto, vinci gare e campionati, le potenzi in officina e porti i motori al banco prova, con curve di coppia e potenza in tempo reale. Ogni modifica a scarico, turbo o ECU si sente, perché il suono del motore non è registrato: è sintetizzato.</p>
+</section>
+
+<section id="features">
+  <h2><span data-l="en">What makes it different</span><span data-l="it">Cosa lo rende diverso</span></h2>
+  <div class="grid">
+    <div class="card"><h3 data-l="en">Synthesised engines</h3><h3 data-l="it">Motori sintetizzati</h3>
+      <p data-l="en">Every engine comes from a physical model (displacement, cylinders, intake, exhaust, flywheel, turbo). Sound, turbo whistle, blow-off, anti-lag and exhaust pops are generated by a DSP written by the developer, <strong>Apex Engine LAB</strong>.</p>
+      <p data-l="it">Ogni motore nasce da un modello fisico (cilindrata, cilindri, aspirazione, scarico, volano, turbo). Suono, fischio del turbo, blow-off, anti-lag e scoppiettii sono generati da un DSP scritto dall'autore, <strong>Apex Engine LAB</strong>.</p></div>
+    <div class="card"><h3 data-l="en">Workshop and dyno</h3><h3 data-l="it">Officina e banco prova</h3>
+      <p data-l="en">12 parts, engine swaps, live torque/power curves, and sound preview before you buy.</p>
+      <p data-l="it">12 ricambi, swap motore, curve di coppia e potenza dal vivo e anteprima del suono prima di comprare.</p></div>
+    <div class="card"><h3 data-l="en">Engine Lab</h3><h3 data-l="it">Laboratorio motore</h3>
+      <p data-l="en">Design an engine from scratch and watch crank and pistons run in 3D, with live waveform and spectrum.</p>
+      <p data-l="it">Progetta un motore da zero e guarda albero e pistoni in 3D, con onda e spettro in tempo reale.</p></div>
+    <div class="card"><h3 data-l="en">Handling from scratch</h3><h3 data-l="it">Fisica da zero</h3>
+      <p data-l="en">Load transfer, surface-dependent grip, tyre wear, handbrake, slipstream, collisions.</p>
+      <p data-l="it">Trasferimenti di carico, aderenza per fondo, usura gomme, freno a mano, scia, collisioni.</p></div>
+    <div class="card"><h3 data-l="en">Weather and pit stops</h3><h3 data-l="it">Meteo e box</h3>
+      <p data-l="en">Clear, variable, rain, snow. Soft, hard and wet tyres; a pit lane with crew; AI that pits by the weather.</p>
+      <p data-l="it">Sereno, variabile, pioggia, neve. Gomme morbide, dure e wet; box con meccanici; AI che rientra in base al meteo.</p></div>
+    <div class="card"><h3 data-l="en">A miniature Italy</h3><h3 data-l="it">Un'Italia in miniatura</h3>
+      <p data-l="en">Tracks inspired by Monte Titano, the Romagna Riviera, Monte Fumaiolo, Passo della Calla, the Furlo Gorge and the Dolomites.</p>
+      <p data-l="it">Piste ispirate a Monte Titano, Riviera Romagnola, Monte Fumaiolo, Passo della Calla, Gola del Furlo e Dolomiti.</p></div>
+  </div>
+
+  <h3><span data-l="en">Key numbers</span><span data-l="it">Numeri</span></h3>
+  <table>
+    <tr><th data-l="en">Vehicles</th><th data-l="it">Veicoli</th><td><span data-l="en">12 — rally, hot hatch, off-road, GT, supercar, motorbike. Fictional brands, 5 liveries each</span><span data-l="it">12 — rally, hot hatch, fuoristrada, GT, supercar, moto. Marchi inventati, 5 livree ciascuno</span></td></tr>
+    <tr><th data-l="en">Tracks</th><th data-l="it">Piste</th><td><span data-l="en">21, from 0.5 to 4.9 km: circuits, special stages, oval, desert, night, snow</span><span data-l="it">21, da 0,5 a 4,9 km: circuiti, prove speciali, ovale, deserto, notte, neve</span></td></tr>
+    <tr><th data-l="en">Modes</th><th data-l="it">Modalità</th><td><span data-l="en">Time trial with ghost, AI race, stage championships, replay</span><span data-l="it">Prova a tempo con ghost, gara AI, campionati a tappe, replay</span></td></tr>
+    <tr><th data-l="en">Economy</th><th data-l="it">Economia</th><td><span data-l="en">Start with 35,000 $peedcoin; cars from 10,000 to 70,000; 15,000 bonus per championship</span><span data-l="it">Si parte con 35.000 $peedcoin; auto da 10.000 a 70.000; 15.000 per campionato vinto</span></td></tr>
+  </table>
+</section>
+
+<section id="shots">
+  <h2><span data-l="en">Screenshots</span><span data-l="it">Immagini</span></h2>
+  <p data-l="en">Captured in-game, unedited. Click to enlarge.</p>
+  <p data-l="it">Catturate dal gioco, senza ritocchi. Clic per ingrandire.</p>
+  <div class="shots">
+    <a href="img/01_san_marino_alba.jpg"><img loading="lazy" src="img/01_san_marino_alba_t.jpg" alt="San Marino at dawn"><span>San Marino — Monte Titano</span></a>
+    <a href="img/05_chiaraluna.jpg"><img loading="lazy" src="img/05_chiaraluna_t.jpg" alt="Val Chiaraluna"><span>Val Chiaraluna</span></a>
+    <a href="img/03_calla_neve.jpg"><img loading="lazy" src="img/03_calla_neve_t.jpg" alt="Passo della Calla in snow"><span>Passo della Calla</span></a>
+    <a href="img/02_notte_pioggia.jpg"><img loading="lazy" src="img/02_notte_pioggia_t.jpg" alt="Night and rain"><span>Night / Rain</span></a>
+    <a href="img/04_riviera_giorno.jpg"><img loading="lazy" src="img/04_riviera_giorno_t.jpg" alt="Romagna Riviera"><span>Riviera Romagnola</span></a>
+    <a href="img/06_imola_gt.jpg"><img loading="lazy" src="img/06_imola_gt_t.jpg" alt="Autodromo Via Emilia"><span>Autodromo Via Emilia</span></a>
+    <a href="img/01_menu.jpg"><img loading="lazy" src="img/01_menu_t.jpg" alt="Main menu"><span>Menu</span></a>
+    <a href="img/02_officina.jpg"><img loading="lazy" src="img/02_officina_t.jpg" alt="Workshop"><span data-l="en">Workshop</span><span data-l="it">Officina</span></a>
+    <a href="img/03_banco_prova.jpg"><img loading="lazy" src="img/03_banco_prova_t.jpg" alt="Dyno"><span data-l="en">Dyno</span><span data-l="it">Banco prova</span></a>
+    <a href="img/04_laboratorio_motore.jpg"><img loading="lazy" src="img/04_laboratorio_motore_t.jpg" alt="Engine Lab"><span data-l="en">Engine Lab</span><span data-l="it">Laboratorio motore</span></a>
+    <a href="img/05_pioggia.jpg"><img loading="lazy" src="img/05_pioggia_t.jpg" alt="Rain"><span data-l="en">Rain</span><span data-l="it">Pioggia</span></a>
+    <a href="img/06_neve.jpg"><img loading="lazy" src="img/06_neve_t.jpg" alt="Snow"><span data-l="en">Snow</span><span data-l="it">Neve</span></a>
+    <a href="img/07_alba.jpg"><img loading="lazy" src="img/07_alba_t.jpg" alt="Dawn"><span data-l="en">Dawn</span><span data-l="it">Alba</span></a>
+    <a href="img/08_notte.jpg"><img loading="lazy" src="img/08_notte_t.jpg" alt="Night"><span data-l="en">Night</span><span data-l="it">Notte</span></a>
+    <a href="img/09_meteo_variabile.jpg"><img loading="lazy" src="img/09_meteo_variabile_t.jpg" alt="Variable weather"><span data-l="en">Variable weather</span><span data-l="it">Meteo variabile</span></a>
+  </div>
+  <p style="margin-top:18px"><a class="btn" href="speed-valley-screenshots.zip" download><span data-l="en">Download all (full resolution, ZIP)</span><span data-l="it">Scarica tutto (piena risoluzione, ZIP)</span></a></p>
+</section>
+
+<section id="copy">
+  <h2><span data-l="en">Ready-to-use copy</span><span data-l="it">Testi pronti</span></h2>
+  <div class="copy"><button>copy</button><b data-l="en">One line</b><b data-l="it">Una riga</b>
+    <span data-l="en">A miniature rally where you build the car, design its engine and hear every change.</span>
+    <span data-l="it">Un rally in miniatura dove costruisci l'auto, ne progetti il motore e ne senti ogni modifica.</span></div>
+  <div class="copy"><button>copy</button><b data-l="en">Short</b><b data-l="it">Breve</b>
+    <span data-l="en">Speed Valley is a top-down driving game with a scale-model look. Start with an empty garage, buy and upgrade cars, test them on the dyno and race championships across miniature Italian roads, with changing weather and pit stops. Engines aren't recordings: they're synthesised, and they sound different with every upgrade.</span>
+    <span data-l="it">Speed Valley è un gioco di guida dall'alto con look da modellino. Parti con un garage vuoto, compri e potenzi le auto, le porti al banco prova e corri campionati tra strade italiane in miniatura, con meteo variabile e soste ai box. I motori non sono registrazioni: sono sintetizzati e cambiano suono a ogni modifica.</span></div>
+</section>
+
+<section id="credits">
+  <h2><span data-l="en">Credits and notes</span><span data-l="it">Crediti e note</span></h2>
+  <ul class="f">
+    <li data-l="en">Cars, brands, teams and liveries are fictional.</li>
+    <li data-l="it">Auto, marchi, squadre e livree sono inventati.</li>
+    <li data-l="en">Music appears only in the intro: Grieg, "In the Hall of the Mountain King", Musopen Symphony Orchestra recording (public domain).</li>
+    <li data-l="it">La musica c'è solo nell'intro: Grieg, «Nella sala del re della montagna», registrazione Musopen Symphony Orchestra (pubblico dominio).</li>
+    <li data-l="en">Built with Godot Engine (MIT). Third-party assets and add-ons: Kenney, Quaternius, Poly Haven (CC0), SimpleGrassTextured, GodotSSRWater, Rocky Path.</li>
+    <li data-l="it">Fatto con Godot Engine (MIT). Asset e add-on di terzi: Kenney, Quaternius, Poly Haven (CC0), SimpleGrassTextured, GodotSSRWater, Rocky Path.</li>
+    <li data-l="en">The 3D models were created with Tripo3D and are owned by the developer under Tripo's Terms of Service (Section 5.2.2).</li>
+    <li data-l="it">I modelli 3D sono stati creati con Tripo3D e sono di proprietà dell'autore in base ai Termini di Servizio di Tripo (Sezione 5.2.2).</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2><span data-l="en">Contact</span><span data-l="it">Contatti</span></h2>
+  <p>[Name] · <a href="mailto:EMAIL">[email]</a> · [website] · [social]</p>
+  <p data-l="en">Playable builds (Windows, macOS), keys and gameplay video available on request.</p>
+  <p data-l="it">Build giocabili (Windows, macOS), chiavi e video di gameplay su richiesta.</p>
+</section>
+
+</main>
+
+<footer><div class="wrap">© Speed Valley · <span data-l="en">Press kit v0.1.0</span><span data-l="it">Press kit v0.1.0</span></div></footer>
+
+<div class="lb" id="lb"><img alt=""></div>
+<script>
+(function(){
+  var d=document.documentElement,btns=document.querySelectorAll('.lang button');
+  function set(l){d.lang=l;btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l)});try{localStorage.setItem('pk-lang',l)}catch(e){}}
+  var q=new URLSearchParams(location.search),pr=q.has('print');if(pr)document.querySelectorAll('img').forEach(function(i){i.loading='eager'});
+  var l='en';try{l=localStorage.getItem('pk-lang')||((navigator.language||'').slice(0,2)==='it'?'it':'en')}catch(e){}
+  if(q.get('lang'))l=q.get('lang');set(l);btns.forEach(function(b){b.onclick=function(){set(b.dataset.set)}});
+  var lb=document.getElementById('lb'),im=lb.querySelector('img');
+  document.querySelectorAll('.shots a').forEach(function(a){a.onclick=function(e){e.preventDefault();im.src=a.href;lb.classList.add('on')}});
+  lb.onclick=function(){lb.classList.remove('on')};
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on')});
+  document.querySelectorAll('.copy button').forEach(function(b){b.onclick=function(){
+    var s=b.parentNode.querySelectorAll('span[data-l="'+d.lang+'"]')[0];
+    if(s&&navigator.clipboard){navigator.clipboard.writeText(s.textContent.trim());b.textContent='ok'; setTimeout(function(){b.textContent='copy'},1200)}}});
+})();
+</script>
+</body>
+</html>
