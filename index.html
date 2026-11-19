@@ -8,7 +8,10 @@
 <meta property="og:title" content="Speed Valley — Press kit">
 <meta property="og:description" content="Miniature top-down rally and racing. Build the car, design its engine, hear every change.">
 <meta property="og:image" content="img/01_san_marino_alba.jpg">
-<link rel="icon" href="img/icon.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="favicon-16x16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
 :root{--bg:#10151c;--panel:#18202b;--ink:#eef2f6;--mute:#9fb0c2;--acc:#ff6a3d;--line:#263243}
 @media (prefers-color-scheme:light){:root{--bg:#f6f4ef;--panel:#fff;--ink:#16202b;--mute:#566577;--acc:#d9481c;--line:#e0dbd0}}
@@ -20,7 +23,8 @@ a{color:var(--acc)}
 header.hero{position:relative;min-height:62vh;display:flex;align-items:flex-end;background:#000 url(img/01_san_marino_alba.jpg) center/cover}
 header.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.82))}
 .hero .wrap{position:relative;z-index:1;padding-bottom:40px;color:#fff}
-.hero h1{font-size:clamp(2.4rem,7vw,4.6rem);line-height:1;margin:0 0 10px;letter-spacing:-.02em}
+.hero h1{margin:0 0 16px;line-height:0}
+.hero h1 img{height:clamp(60px,10vw,120px);width:auto;display:block;filter:drop-shadow(0 2px 8px rgba(0,0,0,.55))}
 .hero p{font-size:clamp(1.05rem,2.4vw,1.4rem);margin:0;max-width:680px;color:#e8edf3}
 nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
 nav .wrap{display:flex;gap:18px;align-items:center;overflow-x:auto;padding-top:10px;padding-bottom:10px;white-space:nowrap}
@@ -75,7 +79,7 @@ html[lang=en] .copy b[data-l=en],html[lang=it] .copy b[data-l=it]{display:block}
 
 <header class="hero">
   <div class="wrap">
-    <h1>Speed Valley</h1>
+    <h1><img src="img/speedvalley-logo.jpg" alt="Speed Valley"></h1>
     <p data-l="en">Miniature rally and racing, seen from above. Drive the car, tune it, build its engine — and hear every change.</p>
     <p data-l="it">Rally e corse in miniatura, viste dall'alto. Guidi l'auto, la modifichi, ne costruisci il motore e senti ogni modifica.</p>
   </div>
